@@ -1,0 +1,7 @@
+# Rider Cache
+.idea/
+
+# Visual Studio Cache
+.vs/
+.vscode/
+.vsconfig
