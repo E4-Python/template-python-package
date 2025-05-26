@@ -1,14 +1,15 @@
 from setuptools import setup
+import json
+
+package_data = json.load(open('package.json', 'r', encoding='utf-8'))
 
 setup(
-    name='PACKAGE',
-    version='0.1.0',
-    description='DESCRIPTION',
-    url='https://github.com/E4-Python/REPOSITORY',
-    author='Eu4ng',
-    author_email='eu4ng97@gmail.com',
-    packages=['PACKAGE'],
-    install_requires=[
-        'numpy>=2.2.6'
-    ]
+    name=package_data['name'],
+    version=package_data['version'],
+    description=package_data['description'],
+    url=package_data['url'],
+    author=package_data['author'],
+    author_email=package_data['author_email'],
+    packages=package_data['packages'],
+    install_requires=package_data['install_requires']
 )
