@@ -4,7 +4,7 @@ setup(
     name='PACKAGE',
     version='0.1.0',
     description='DESCRIPTION',
-    url='https://github.com/E4-Python/template-python-package',
+    url='https://github.com/E4-Python/REPOSITORY',
     author='Eu4ng',
     author_email='eu4ng97@gmail.com',
     packages=['PACKAGE'],

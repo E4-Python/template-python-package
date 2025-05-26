@@ -1,3 +1,3 @@
-# Template Common
+# PACKAGE
 
-저장소 공통 템플릿
+DESCRIPTION

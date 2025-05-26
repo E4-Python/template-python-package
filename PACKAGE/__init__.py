@@ -1,1 +1,1 @@
-from PACKAGE import *
+from .MODULE import *
